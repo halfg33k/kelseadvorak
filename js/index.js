@@ -7,7 +7,7 @@ var hoverBreakpoint = 520;
  */
 $(".panel").hover(
     function(){
-        if($(window).width() > hoverBreakpoint){
+        if($(window).width() > hoverBreakpoint && $(window).height() < $(window).width()){
             $(".panel").each(function(){
                 $(this).css("width", 100/(numPanels+1) + "%");
             });
@@ -16,7 +16,7 @@ $(".panel").hover(
             .addClass("panel_active");
         }
     }, function(){
-        if($(window).width() > hoverBreakpoint){
+        if($(window).width() > hoverBreakpoint && $(window).height() < $(window).width()){
             $(".panel").each(function(){
                 $(this).css("width", 100/(numPanels) + "%")
                 .removeClass("panel_active");

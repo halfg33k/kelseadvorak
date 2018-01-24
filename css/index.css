@@ -116,7 +116,7 @@ h2 {
     }
 }
 
-@media screen and (max-width : 500px) {
+@media screen and (max-width : 500px), screen and (orientation: portrait) {
     h1 {
         writing-mode: vertical-lr;
         text-orientation: upright;
