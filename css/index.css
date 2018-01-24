@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Caveat', serif;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    font-size: 3em;
+    right: 2%;
+    bottom: 80%;
+    z-index: 5;
+}
+
+.accordion {
+    position: absolute;
+    top: 20%;
+    height: 60%;
+    width: 100%;
+    background: turquoise;
+}
+
+.accordion_inner {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 10%;
+}
+
+.panel {
+    display: block;
+    float: left;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    background-size: cover;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    filter: grayscale(1);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.panel_active {
+    height: 150%;
+    top: -25%;
+    filter: grayscale(0);
+    z-index: 20;
+}
+
+#panel_01 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/001.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+#panel_02 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/002.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+#panel_03 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/003.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#panel_04 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/004.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#panel_05 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/005.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    vertical-align: bottom;
+    color: white;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+}
+
+@media screen and (hover: none) {
+    .panel {
+        filter: grayscale(0);
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .accordion_inner {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    h1 {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        width: 5%;
+        line-height: 4vw;
+    }
+
+    .accordion {
+        height: 100%;
+        top: 0;
+    }
+
+    .accordion_inner {
+        width: 95%;
+        left: 0;
+    }
+    
+    .panel {
+        float: none;
+        height: 20%;
+        width: 100%;
+        filter: grayscale(0);
+    }
+}
