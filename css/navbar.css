@@ -66,3 +66,21 @@
         margin: 0 0.5em;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .navbar li {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar li {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar li {
+        margin: 0;
+    }
+}
