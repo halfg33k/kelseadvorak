@@ -9,6 +9,7 @@
     font-size: 2.5em;
     bottom: 0;
     left: 1em;
+    line-height: 4rem;
 }
 
 .navbar ul {
@@ -19,12 +20,34 @@
 }
 
 .navbar li {
-    display: inline;
-    margin: 0 1em;
+    position: relative;
+    display: inline-block;
+    width: 4em;
+    text-align: center;
+    margin-right: 1em;
     font-size: 1.5em;
+    line-height: 4rem;
+}
+
+.navbar li:hover {
+    font-family: sans-serif;
 }
 
 .navbar a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        height: 6em;
+    }
+    
+    .navbar h2 {
+        font-size: 4em;
+    }
+
+    .navbar li {
+        font-size: 2em;
+    }
 }
