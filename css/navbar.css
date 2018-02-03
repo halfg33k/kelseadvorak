@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
 .navbar {
     position: relative;
     height: 4em;
     background: #B4ECED;
+    font-family: 'Caveat', sans-serif;
 }
 
 .navbar h2 {
