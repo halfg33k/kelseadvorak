@@ -75,3 +75,23 @@ h1 {
 .stop-scroll {
     overflow: hidden;
 }
+
+
+@media screen and (max-width: 1500px) {
+    .masonry {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .masonry {
+        column-count: 1;
+    }
+}
