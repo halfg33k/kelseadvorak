@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 .navbar {
     position: relative;
@@ -33,7 +34,7 @@
 }
 
 .navbar li:hover {
-    font-family: sans-serif;
+    font-family: 'Open Sans Condensed'
 }
 
 .navbar a {
