@@ -1,5 +1,4 @@
 $('.item').on('click', function() {
-    $(this).children('.item--image').last().toggleClass('zoomed');
-    $(this).children().last().toggleClass('zoomed-bg');
+    $(this).toggleClass('zoomed');
     $('body').toggleClass('stop-scroll');
 });
