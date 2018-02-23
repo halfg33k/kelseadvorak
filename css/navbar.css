@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@font-face {
+    font-family: font_main;
+    src: url("../ylee_mhim.ttf");
+}
 
 .navbar {
     position: relative;
     height: 4em;
     background: #B4ECED;
-    font-family: 'Caveat', sans-serif;
+    font-family: 'font_main', sans-serif;
+    font-weight: bold;
 }
 
 .navbar h2 {
@@ -29,7 +33,7 @@
     width: 4em;
     text-align: center;
     margin-right: 1em;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 4rem;
 }
 
@@ -73,18 +77,18 @@
 
 @media screen and (max-width: 1050px) {
     .navbar li {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar li {
         font-size: 2em;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
     .navbar li {
         font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .navbar li {
-        margin: 0;
     }
 }
