@@ -37,7 +37,7 @@
 }
 
 .navbar li:hover {
-    font-family: 'Open Sans Condensed';
+    font-style: italic;
 }
 
 .navbar a {
