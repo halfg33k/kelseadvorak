@@ -8,8 +8,7 @@
     position: relative;
     height: 4em;
     background: #B4ECED;
-    font-family: 'font_main', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navbar h2 {
@@ -38,7 +37,7 @@
 }
 
 .navbar li:hover {
-    font-family: 'Open Sans Condensed'
+    font-family: 'Open Sans Condensed';
 }
 
 .navbar a {

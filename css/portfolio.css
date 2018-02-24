@@ -2,6 +2,7 @@
     font-family: font_main;
     src: url("../ylee_mhim.ttf");
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 * {
     margin: 0;
@@ -11,7 +12,7 @@
 
 html {
     font-size: 16px;
-    font-family: 'font_main', serif;
+    font-family: 'Open Sans Condensed', 'font_main', serif;
 }
 
 h1 {
