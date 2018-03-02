@@ -60,12 +60,12 @@ h1 {
 }
 
 #panel_01 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/illustration_007.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/illustration_006.jpg") no-repeat center right;
     background-size: cover;
 }
 
 #panel_02 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/concept_001.png") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/concept_002.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 #panel_04 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/illustration_004.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../images/illustration_001.jpeg") no-repeat center left;
     background-size: cover;
 }
 
